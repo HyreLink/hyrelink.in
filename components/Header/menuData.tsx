@@ -3,66 +3,49 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Home",
+    title: "About",
     newTab: false,
     path: "/",
   },
+
   {
     id: 2,
-    title: "Features",
-    newTab: false,
-    path: "/#features",
-  },
-  {
-    id: 2.1,
-    title: "Blog",
-    newTab: false,
-    path: "/blog",
-  },
-  {
-    id: 2.3,
-    title: "Docs",
-    newTab: false,
-    path: "/docs",
-  },
-  {
-    id: 3,
-    title: "Pages",
+    title: "Services",
     newTab: false,
     submenu: [
       {
         id: 31,
-        title: "Blog Grid",
+        title: "Digital Marketing & SEO",
         newTab: false,
         path: "/blog",
       },
       {
         id: 34,
-        title: "Sign In",
+        title: "Design & App Development",
         newTab: false,
         path: "/auth/signin",
       },
       {
         id: 35,
-        title: "Sign Up",
+        title: "AI & Data Science",
         newTab: false,
         path: "/auth/signup",
       },
       {
         id: 35,
-        title: "Docs",
+        title: "LegitLog - Logistics",
         newTab: false,
         path: "/docs",
       },
       {
         id: 35.1,
-        title: "Support",
+        title: "HealthCare",
         newTab: false,
         path: "/support",
       },
       {
         id: 36,
-        title: "404",
+        title: "Interior Designing.",
         newTab: false,
         path: "/error",
       },
@@ -70,10 +53,47 @@ const menuData: Menu[] = [
   },
 
   {
-    id: 4,
-    title: "Support",
+    id: 2.24,
+    title: "Work",
     newTab: false,
-    path: "/support",
+    path: "/#features",
+  },
+  {
+    id: 2.1,
+    title: "Spotlight",
+    newTab: false,
+    submenu: [
+      {
+        id: 31,
+        title: "Blogs",
+        newTab: false,
+        path: "/blog",
+      },
+      {
+        id: 34,
+        title: "Podcasts",
+        newTab: false,
+        path: "/auth/signin",
+      },
+      {
+        id: 35,
+        title: "Events",
+        newTab: false,
+        path: "/auth/signup",
+      },
+    ],
+  },
+  // {
+  //   id: 2.3,
+  //   title: "HyreLabs",
+  //   newTab: false,
+  //   path: "/docs",
+  // },
+  {
+    id: 2.24,
+    title: "Careers",
+    newTab: false,
+    path: "/#features",
   },
 ];
 
