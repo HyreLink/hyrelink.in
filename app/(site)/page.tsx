@@ -11,7 +11,7 @@ import FAQ from "@/components/FAQ";
 import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
-// import Testimonial from "@/components/Testimonial";
+import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
   title: "Hyrelink.",
@@ -31,7 +31,7 @@ export default function Home() {
       <Integration />
       <CTA />
       <FAQ />
-      {/* <Testimonial /> */}
+      <Testimonial />
       <Pricing />
       <Contact />
       <Blog />
