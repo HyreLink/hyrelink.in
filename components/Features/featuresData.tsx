@@ -4,9 +4,9 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: "/images/icon/icon-01.svg",
-    title: "Crafted for SaaS",
+    title: "Digital Marketing & SEO",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Elevate your online presence with our comprehensive Digital Marketing and SEO solutions. We specialize in crafting strategies that drive traffic, boost engagement, and ensure your brand stands out in the digital landscape. Let us amplify your online success.",
   },
   {
     id: 2,
