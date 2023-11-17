@@ -43,6 +43,13 @@ const featuresData: Feature[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
   },
+  {
+    id: 7,
+    icon: "/images/icon/icon-01.svg",
+    title: "Crafted for SaaS",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+  },
 ];
 
 export default featuresData;

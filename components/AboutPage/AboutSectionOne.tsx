@@ -27,6 +27,7 @@ const AboutSectionOne = () => {
                 title="Crafted for Startup, SaaS and Business Sites."
                 paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
                 mb="44px"
+                color="red"
               />
 
               <div
