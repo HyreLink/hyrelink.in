@@ -12,6 +12,7 @@ import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
+import Head from "./head";
 
 export const metadata: Metadata = {
   title: "Hyrelink.",
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
+      <Head/>
       <Hero />
       <Brands />
       <Feature />
