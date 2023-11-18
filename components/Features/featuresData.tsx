@@ -5,51 +5,45 @@ const featuresData: Feature[] = [
     id: 1,
     icon: "/images/icon/icon-01.svg",
     title: "Digital Marketing & SEO",
-    description:
-      "Elevate your online presence with our comprehensive Digital Marketing and SEO solutions. We specialize in crafting strategies that drive traffic, boost engagement, and ensure your brand stands out in the digital landscape. Let us amplify your online success.",
+    description: "Amplify your brand's online success with strategies that captivate your audience.",
+    url: "/digital-marketing",
   },
   {
     id: 2,
     icon: "/images/icon/icon-02.svg",
-    title: "High-quality Design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+    title: "Design & App Development",
+    description: "Transform your vision into reality with stunning designs and user-friendly applications.",
+    url: "/design-app-development",
   },
   {
     id: 3,
     icon: "/images/icon/icon-03.svg",
-    title: "Next.js 13 + TypeScript",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+    title: "AI & Data Science",
+    description: "Empower your business with cutting-edge AI and Data Science solutions. Unleash the potential of predictive analytics and machine learning, driving informed decision-making.",
+    url: "/ai-data-science",
   },
   {
     id: 4,
     icon: "/images/icon/icon-04.svg",
-    title: "Sanity Blog and Docs",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+    title: "Logistics & Moving Solutions",
+    description: "Experience precision and efficiency in every step of your logistics journey.",
+    url: "/logistics-moving",
   },
   {
     id: 5,
     icon: "/images/icon/icon-05.svg",
-    title: "DB, Auth and Stripe",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+    title: "HealthCare",
+    description: "Elevate patient care with innovative healthcare solutions tailored for your success.",
+    url: "/healthcare",
   },
   {
     id: 6,
     icon: "/images/icon/icon-06.svg",
-    title: "Regular Free Updates",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+    title: "Interior Designing",
+    description: "Redefine your space with visionary designs that blend creativity and functionality.",
+    url: "/interior-designing",
   },
-  {
-    id: 7,
-    icon: "/images/icon/icon-01.svg",
-    title: "Crafted for SaaS",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
-  },
+  
 ];
 
 export default featuresData;

@@ -38,7 +38,7 @@ const Header = () => {
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-2 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between px-1 xl:w-1/4">
           <a href="/">
-            <h1 className=" text-3xl font-bold text-black dark:text-white">
+            <h1 className=" text-3xl pb-1 font-bold text-black dark:text-white">
               HyreLink.
             </h1>
           </a>
@@ -88,23 +88,23 @@ const Header = () => {
         <div
           className={`invisible h-0 w-auto items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${
             navigationOpen &&
-            "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 shadow-solid-5 dark:bg-blacksection xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
+            "navbar !visible mt-4 h-auto max-h-[400px] rounded-md  bg-white p-7.5 shadow-solid-5 dark:bg-blacksection xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
           }`}
         >
           <nav>
-            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
+            <ul className="flex pt-2 flex-col gap-5 text-stone-800 dark:text-gray-300 xl:flex-row xl:items-center xl:gap-10">
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative"}>
                   {menuItem.submenu ? (
                     <>
                       <button
                         onClick={() => setDropdownToggler(!dropdownToggler)}
-                        className="flex cursor-pointer items-center justify-between gap-3 hover:text-primary"
+                        className="flex cursor-pointer text-stone-800 dark:text-gray-300 items-center justify-between gap-3 dark:hover:text-primary hover:text-primary"
                       >
                         {menuItem.title}
                         <span>
                           <svg
-                            className="h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-primary"
+                            className="h-3 w-3 cursor-pointer fill-stone-800 dark:fill-gray-300 group-hover:fill-primary"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512"
                           >
