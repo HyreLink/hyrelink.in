@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       <div className="relative h-screen overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white">
-        <div className="absolute inset-0">
+        <div>
           
           <video
             autoPlay
@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="relative z-10 flex h-full flex-col items-center justify-center text-center">
+        <div className="relative z-10 flex h-3/4 md:h-full flex-col items-center justify-center text-center">
           <h5 className="text-3xl mb-5 sm:text-4xl md:text-5xl lg:text-6xl">
             Fueling Innovation,
           </h5>
