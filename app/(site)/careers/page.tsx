@@ -1,11 +1,10 @@
+import Career from '@/components/Career'
 import React from 'react'
-import Career from "@/components/Career";
 
-export const Careers: React.FC = () =>{
+const career = () => {
   return (
-    <div className="pb-20 pt-40">
-    <Career/>
-  </div>
+    <div className="pb-20 pt-40"><Career/></div>
   )
 }
-export default Careers;
+
+export default career
