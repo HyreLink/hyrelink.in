@@ -9,7 +9,7 @@ const checkIcon = (
 
 const AboutSectionOne = () => {
   const List = ({ text }) => (
-    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
+    <p className="text-body-color mb-5 flex items-center text-lg font-medium">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
         {checkIcon}
       </span>
@@ -18,61 +18,61 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
-      <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
-                mb="44px"
-                color="red"
-              />
-
-              <div
-                className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="w-full px-4 lg:w-1/2">
-              <div
-                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
-                data-wow-delay=".2s"
-              >
-                <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="drop-shadow-three mx-auto hidden max-w-full dark:block dark:drop-shadow-none lg:mr-0"
-                />
-              </div>
-            </div>
+    <>
+      <section>
+        <div className="relative h-screen overflow-hidden text-black">
+          <div>
+            <video
+              autoPlay
+              muted
+              playsInline
+              loop
+              className="absolute inset-0 h-full w-full object-cover"
+            >
+              <source src="/videos/about.webm" type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+            <div className="absolute inset-0">
+            <div className="absolute inset-0 bg-black opacity-50"></div>
+            <div className="absolute inset-0 bg-opacity-25 backdrop-blur-sm"></div>
           </div>
         </div>
-      </div>
-    </section>
+          <div className="relative z-10 flex h-3/4 flex-col items-center justify-center text-center md:h-full">
+            <h1 className="mb-5 text-[120px] font-bold uppercase sm:text-4xl md:text-4xl lg:text-4xl">
+              About HyreLink
+            </h1>
+            <p className="mb-10 w-9/12 text-justify text-xl sm:text-xl md:text-xl lg:text-xl">
+              Welcome to HyreLink, where we go beyond providing services, we
+              craft a seamless experience, redefining excellence and igniting
+              success through unparalleled expertise. Elevating Your Vision t
+              HyreLink, we believe in the power of your vision. 
+              {/* It's not just a
+              statement; it's a mission. Your aspirations become our driving
+              force as we collaborate to shape a future where possibilities are
+              limitless. Together, we embark on a journey to transform ideas
+              into reality. HyreLink stands as the premier destination for
+              cutting-edge business solutions. Immerse yourself in excellence as
+              we bring expertise to various domains, including logistics,
+              interior design, data science, artificial intelligence, design and
+              app development, and event management. At HyreLink, we
+              consistently surpass expectations, going above and beyond. Elevate
+              your business with us, where innovation meets unparalleled
+              proficiency */}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="">
+        <div className="container mx-auto max-w-xl space-y-12 p-6 lg:max-w-7xl lg:px-8">
+          <div>
+            <h2 className="text-center text-3xl font-bold sm:text-5xl">
+              Every Service, Every Need, Every Time
+            </h2>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 
