@@ -1,7 +1,7 @@
 import React from 'react'
 import Career from "@/components/Career";
 
-export const Careers = () => {
+export const Careers: React.FC = () =>{
   return (
     <div className="pb-20 pt-40">
     <Career/>

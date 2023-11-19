@@ -88,7 +88,7 @@ const menuData: Menu[] = [
     id: 2.24,
     title: "Careers",
     newTab: false,
-    path: "/career",
+    path: "/careers",
   },
 ];
 
