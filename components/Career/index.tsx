@@ -51,8 +51,6 @@ const Career = () => {
                   className="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
                   name="text_input_CE79D16B-9C99-4084-8805-F4D010843B52"
                   placeholder="Enter Name"
-                  required=""
-                  
                 />
               </div>
             </div>
@@ -66,9 +64,7 @@ const Career = () => {
                   type="email"
                   className="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
                   name="email_input_5BE3D50D-A699-4819-AECE-DF9DB6CD4E4D"
-                  placeholder="Enter Email Address"
-                  required=""
-                 
+                  placeholder="Enter Email Address"                 
                 />
               </div>
             </div>
@@ -83,8 +79,6 @@ const Career = () => {
                   className="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
                   name="phone_input_8EE23895-3352-428B-AA0A-DF4E81FAD9D1"
                   placeholder="Phone Number"
-                  required=""
-                 
                 />
               </div>
             </div>
@@ -100,8 +94,6 @@ const Career = () => {
                     className="custom-control-input fb-builder-radio sr-only"
                     name="radiobuttons_A1AB11B5-338D-4A93-8C98-5F4612183BC7"
                     type="radio"
-                    required=""
-                    
                   />
                   <label
                     className="custom-control-label relative flex cursor-pointer text-base text-black"
@@ -119,8 +111,6 @@ const Career = () => {
                     className="custom-control-input fb-builder-radio sr-only"
                     name="radiobuttons_A1AB11B5-338D-4A93-8C98-5F4612183BC7"
                     type="radio"
-                    required=""
-                    
                   />
                   <label
                     className="custom-control-label relative flex cursor-pointer text-base text-black"
@@ -146,7 +136,6 @@ const Career = () => {
                       name="file_attachment_A696EC87-0AE6-4A1A-A16A-BE5519D19830"
                       type="file"
                       accept="*"
-                      required=""
                       className="text-body-color w-full rounded border border-stroke p-3 outline-none transition file:mr-4 file:rounded file:border-[.5px] file:border-stroke file:bg-[#EEEEEE] file:px-[10px] file:py-1 file:text-sm file:font-medium focus:border-primary file:focus:border-primary active:border-primary disabled:cursor-default disabled:bg-[#F5F7FD]"
                     />
                   </div>
@@ -163,7 +152,6 @@ const Career = () => {
                   className="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
                   name="text_area_8291ECF1-A40D-4810-BC9B-618FD922F9E4"
                   placeholder="Tell us"
-                  required=""
                 ></textarea>
               </div>
             </div>
