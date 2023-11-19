@@ -5,7 +5,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="relative h-screen overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+      <div className="relative h-screen overflow-hidden text-white">
         <div>
           
           <video

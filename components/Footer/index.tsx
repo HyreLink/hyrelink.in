@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -28,7 +29,7 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/4"
               >
-                <a href="index.html" className="relative">
+                <a href="/" className="relative">
                   <h1 className=" text-5xl font-bold text-black dark:text-white">
                     HyreLink.
                   </h1>
@@ -80,16 +81,16 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        href="/#features"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Product
-                      </a>
+                        Services
+                      </Link>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/careers"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Careers
@@ -97,10 +98,10 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/hyrelab"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Pricing
+                        HyreLabs
                       </a>
                     </li>
                   </ul>
@@ -189,17 +190,20 @@ const Footer = () => {
                     Subscribe to receive future updates
                   </p>
 
-                  <form action="#">
+                  <form action="https://formbold.com/s/3nlnJ" method="POST">
                     <div className="relative">
                       <input
                         type="text"
+                        name="email_input_5789989F-6A5A-4E69-8036-2E073D325B0E"
                         placeholder="Email address"
                         className="w-full rounded-full border border-stroke px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                       />
 
                       <button
+                        type="submit"
                         aria-label="signup to newsletter"
                         className="absolute right-0 p-4"
+                        value="Submit"
                       >
                         <svg
                           className="fill-[#757693] hover:fill-primary dark:fill-white"
@@ -257,7 +261,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="/privacy" className="hover:text-primary">
                     Privacy Policy
                   </a>
                 </li>
