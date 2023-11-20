@@ -18,23 +18,41 @@ const Career = () => {
 
   return (
     <>
+    <section id="support" className="px-4 md:px-8 2xl:px-0">
+        <div className="relative px-10 mx-screen max-w-c-1390 md:px-7.5 lg:px-15 xl:px-20">
+          <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]"></div>
+          <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
+            <Image
+              src="./images/shape/shape-dotted-light.svg"
+              alt="Dotted"
+              className="dark:hidden"
+              fill
+            />
+            <Image
+              src="./images/shape/shape-dotted-dark.svg"
+              alt="Dotted"
+              className="hidden dark:block"
+              fill
+            />
+          </div>
+          </div>
       <div>
-        <link rel="stylesheet" href="https://cdn.formbold.com/formbold.css" />
+        {/* <link rel="stylesheet" href="https://cdn.formbold.com/formbold.css" /> */}
         <br />
         <div className="formbold-builder-form themeOne">
           <form
             encType="multipart/form-data"
             action="https://formbold.com/s/6r0ng"
             method="POST"
-            className="themeOne mx-auto w-full rounded-[10px] border border-stroke bg-white p-10"
+            className="themeOne mx-screen w-full rounded-[10px] border border-stroke bg-white p-10"
           >
             <div className="SortableItem fb-builder-item">
-              <h3 className="static text-xl  font-semibold leading-tight text-black sm:text-[28px]">
-                Career
+              <h3 className="text-3xl pb-10 font-semibold text-black xl:text-sectiontitle2">
+                Career at HyreLink
               </h3>
             </div>
             <div className="SortableItem fb-builder-item">
-              <p className="text-body-color static text-base">
+              <p className="text-body-color mb-10 static text-base">
                 Join us at HyreLink and embark on a rewarding career journey
                 where innovation, collaboration, and personal growth converge to
                 shape a future of limitless possibilities
@@ -163,24 +181,9 @@ const Career = () => {
               />
             </div>
           </form>
-          <p className="mt-8 flex items-center justify-center">
-            Powered by
-            <span className="pl-2">
-              <a
-                href="https://formbold.com"
-                rel="nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  src="https://cdn.formbold.com/formbold-logo.svg"
-                  alt="Formbold Logo"
-                  
-                />
-              </a>
-            </span>
-          </p>
         </div>
       </div>
+      </section>
     </>
   );
 };
