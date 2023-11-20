@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
 
         <div className="relative z-10 flex h-3/4 md:h-full flex-col items-center justify-center text-center">
-          <h5 className="text-3xl mb-5 sm:text-4xl md:text-5xl lg:text-6xl">
+          <h5 className="text-3xl mt-40 md:mt-0 mb-5 sm:text-4xl md:text-5xl lg:text-6xl">
             Fueling Innovation,
           </h5>
           <h1 className="mb-5 text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
@@ -37,9 +37,16 @@ const Hero = () => {
           </p>
           <Link
               href="/support"
-              className="flex rounded-full bg-black px-6 py-2 text-base text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho sm:text-lg md:text-lg lg:text-lg"
+              className="flex mb-15 rounded-full bg-black px-6 py-2 text-base text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho sm:text-lg md:text-lg lg:text-lg"
             >
               Let's Connect →
+            </Link>
+
+            <Link
+              href="#brands"
+              className="flex rounded-full bg-transparent px-6 py-2 text-base text-white duration-300 ease-in-out dark:bg-transparent sm:text-lg md:text-lg lg:text-lg"
+            >
+              Scroll Down ↓
             </Link>
         </div>
       </div>
