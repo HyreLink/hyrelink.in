@@ -44,7 +44,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  heyceo@hyrelink.in
+                  heyteam@hyrelink.in
                 </a>
               </motion.div>
 
@@ -74,7 +74,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Home
@@ -132,7 +132,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/about"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Company
@@ -140,15 +140,15 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/podcast"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Press media
+                        Podcasts
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/blog"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Our Blog
@@ -156,7 +156,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/support"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Contact Us
@@ -316,7 +316,7 @@ const Footer = () => {
             >
               <ul className="flex items-center gap-5">
                 <li>
-                  <a href="#" aria-label="social icon">
+                  <a href="https://x.com/HyreLink?s=20" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="30"
@@ -337,7 +337,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="social icon">
+                  <a href="https://www.instagram.com/hyrelink.co/" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="30"
@@ -358,7 +358,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="social icon">
+                  <a href="https://www.linkedin.com/company/hyrelink" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="30"

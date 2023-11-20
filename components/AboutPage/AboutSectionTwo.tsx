@@ -3,7 +3,7 @@ import SectionHeader from "../Common/SectionHeader";
 
 const AboutSectionTwo = () => {
   return (
-    <section className="font-poppins flex items-center bg-stone-100 dark:bg-gray-800 lg:h-screen ">
+    <section id="section2" className="font-poppins flex items-center bg-stone-100 dark:bg-gray-800 lg:h-screen ">
       <div className="mx-auto max-w-6xl flex-1 justify-center py-4 md:px-6 lg:py-6">
         <div className="mb-10 px-4 md:mb-20 md:text-center">
         <div className="relative flex flex-col items-center">

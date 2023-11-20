@@ -23,7 +23,7 @@ const podcasts = () => {
         </div>
 
         <div className="relative z-10 flex h-3/4 flex-col items-center justify-center text-center md:h-full">
-          <h1 className="mb-5 text-3xl  font-bold uppercase sm:text-4xl md:text-4xl lg:text-4xl">
+          <h1 className="mb-5 text-3xl max-sm:text-2xl max-sm:mt-35 font-bold uppercase sm:text-4xl md:text-4xl lg:text-4xl">
             Coming Up Soon
           </h1>
           <p className="mb-10 w-9/12 text-xl sm:text-xl md:text-xl lg:text-xl">

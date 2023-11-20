@@ -18,23 +18,41 @@ const Career = () => {
 
   return (
     <>
+    <section id="support" className="px-4 md:px-8 2xl:px-0">
+        <div className="relative px-10 mx-screen max-w-c-1390 md:px-7.5 lg:px-15 xl:px-20">
+          <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]"></div>
+          <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
+            <Image
+              src="./images/shape/shape-dotted-light.svg"
+              alt="Dotted"
+              className="dark:hidden"
+              fill
+            />
+            <Image
+              src="./images/shape/shape-dotted-dark.svg"
+              alt="Dotted"
+              className="hidden dark:block"
+              fill
+            />
+          </div>
+          </div>
       <div>
-        <link rel="stylesheet" href="https://cdn.formbold.com/formbold.css" />
+        {/* <link rel="stylesheet" href="https://cdn.formbold.com/formbold.css" /> */}
         <br />
         <div className="formbold-builder-form themeOne">
           <form
             encType="multipart/form-data"
             action="https://formbold.com/s/6r0ng"
             method="POST"
-            className="themeOne mx-auto w-full rounded-[10px] border border-stroke bg-white p-10"
+            className="themeOne mx-screen w-full rounded-[10px] border border-stroke bg-white p-10"
           >
             <div className="SortableItem fb-builder-item">
-              <h3 className="static text-xl  font-semibold leading-tight text-black sm:text-[28px]">
-                Career
+              <h3 className="text-3xl pb-10 font-semibold text-black xl:text-sectiontitle2">
+                Career at HyreLink
               </h3>
             </div>
             <div className="SortableItem fb-builder-item">
-              <p className="text-body-color static text-base">
+              <p className="text-body-color mb-10 static text-base">
                 Join us at HyreLink and embark on a rewarding career journey
                 where innovation, collaboration, and personal growth converge to
                 shape a future of limitless possibilities
@@ -51,8 +69,6 @@ const Career = () => {
                   className="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
                   name="text_input_CE79D16B-9C99-4084-8805-F4D010843B52"
                   placeholder="Enter Name"
-                  required=""
-                  
                 />
               </div>
             </div>
@@ -66,9 +82,7 @@ const Career = () => {
                   type="email"
                   className="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
                   name="email_input_5BE3D50D-A699-4819-AECE-DF9DB6CD4E4D"
-                  placeholder="Enter Email Address"
-                  required=""
-                 
+                  placeholder="Enter Email Address"                 
                 />
               </div>
             </div>
@@ -83,8 +97,6 @@ const Career = () => {
                   className="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
                   name="phone_input_8EE23895-3352-428B-AA0A-DF4E81FAD9D1"
                   placeholder="Phone Number"
-                  required=""
-                 
                 />
               </div>
             </div>
@@ -100,8 +112,6 @@ const Career = () => {
                     className="custom-control-input fb-builder-radio sr-only"
                     name="radiobuttons_A1AB11B5-338D-4A93-8C98-5F4612183BC7"
                     type="radio"
-                    required=""
-                    
                   />
                   <label
                     className="custom-control-label relative flex cursor-pointer text-base text-black"
@@ -119,8 +129,6 @@ const Career = () => {
                     className="custom-control-input fb-builder-radio sr-only"
                     name="radiobuttons_A1AB11B5-338D-4A93-8C98-5F4612183BC7"
                     type="radio"
-                    required=""
-                    
                   />
                   <label
                     className="custom-control-label relative flex cursor-pointer text-base text-black"
@@ -146,7 +154,6 @@ const Career = () => {
                       name="file_attachment_A696EC87-0AE6-4A1A-A16A-BE5519D19830"
                       type="file"
                       accept="*"
-                      required=""
                       className="text-body-color w-full rounded border border-stroke p-3 outline-none transition file:mr-4 file:rounded file:border-[.5px] file:border-stroke file:bg-[#EEEEEE] file:px-[10px] file:py-1 file:text-sm file:font-medium focus:border-primary file:focus:border-primary active:border-primary disabled:cursor-default disabled:bg-[#F5F7FD]"
                     />
                   </div>
@@ -163,7 +170,6 @@ const Career = () => {
                   className="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
                   name="text_area_8291ECF1-A40D-4810-BC9B-618FD922F9E4"
                   placeholder="Tell us"
-                  required=""
                 ></textarea>
               </div>
             </div>
@@ -175,24 +181,9 @@ const Career = () => {
               />
             </div>
           </form>
-          <p className="mt-8 flex items-center justify-center">
-            Powered by
-            <span className="pl-2">
-              <a
-                href="https://formbold.com"
-                rel="nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  src="https://cdn.formbold.com/formbold-logo.svg"
-                  alt="Formbold Logo"
-                  
-                />
-              </a>
-            </span>
-          </p>
         </div>
       </div>
+      </section>
     </>
   );
 };

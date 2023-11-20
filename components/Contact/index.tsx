@@ -193,7 +193,7 @@ const Contact = () => {
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">heyceo@hyrelink.in</a>
+                  <a href="#">heyteam@hyrelink.in</a>
                 </p>
               </div>
               <div>

@@ -12,16 +12,16 @@ const FunFact = () => {
           <Image
             width={335}
             height={384}
-            src="/images/shape/shape-04.png"
+            src="/images/shape/team.svg"
             alt="Man"
-            className="absolute -left-15 -top-25 -z-1 lg:left-0"
+            className="max-md:hidden absolute -left-15 -top-15 -z-1 lg:left-0"
           />
           <Image
-            width={132}
-            height={132}
-            src="/images/shape/shape-05.png"
+            width={335}
+            height={384}
+            src="/images/shape/company.svg"
             alt="Doodle"
-            className="absolute bottom-0 right-0 -z-1"
+            className="max-md:hidden absolute bottom-0 right-0 -z-1"
           />
 
           <Image
@@ -56,12 +56,13 @@ const FunFact = () => {
             className="animate_top mx-auto mb-12.5 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2"
           >
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-              Trusted by Global Companies.
+              Defining Our Dynamic Tagline.
             </h2>
             <p className="mx-auto lg:w-11/12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-              ante in maximus.
+              At HyreLink, our proven track record is a testament to our
+              dedication and expertise. With numerous satisfied clients, we
+              continue to deliver outstanding results and are eager to add your
+              success story to our portfolio.
             </p>
           </motion.div>
 
@@ -85,11 +86,11 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                500K
+                20+
               </h3>
-              <p className="text-lg lg:text-para2">World Wide Clients</p>
+              <p className="text-lg lg:text-para2">Success Stories</p>
             </motion.div>
-            <motion.div
+            {/* <motion.div
               variants={{
                 hidden: {
                   opacity: 0,
@@ -111,7 +112,7 @@ const FunFact = () => {
                 1M+
               </h3>
               <p className="text-lg lg:text-para2">Downloads</p>
-            </motion.div>
+            </motion.div> */}
             <motion.div
               variants={{
                 hidden: {
@@ -131,9 +132,9 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                865
+                5+
               </h3>
-              <p className="text-lg lg:text-para2">Winning Award</p>
+              <p className="text-lg lg:text-para2">Upcoming Projects</p>
             </motion.div>
           </div>
         </div>
