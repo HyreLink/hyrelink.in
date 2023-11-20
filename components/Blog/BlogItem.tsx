@@ -9,6 +9,7 @@ const BlogItem = ({ blog }: { blog: Blog }) => {
 
   return (
     <>
+    
       <motion.div
         variants={{
           hidden: {

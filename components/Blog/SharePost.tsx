@@ -7,7 +7,7 @@ const SharePost = () => {
             <p className="text-black dark:text-white">Share On:</p>
           </li>
           <li>
-            <a href="#" aria-label="social link">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=YOUR_URL" aria-label="social link">
               <svg
                 className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                 width="24"
@@ -55,7 +55,7 @@ const SharePost = () => {
             </a>
           </li>
           <li>
-            <a href="#" aria-label="social link">
+            <a href="https://www.linkedin.com/shareArticle?url=YOUR_URL&title=YOUR_TITLE&summary=YOUR_DESCRIPTION" aria-label="social link">
               <svg
                 className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                 width="24"
@@ -100,23 +100,6 @@ const SharePost = () => {
           </li>
         </ul>
 
-        <ul className="flex items-center gap-4">
-          <li>
-            <p className="text-black dark:text-white">Tags:</p>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="pr-2 duration-300 ease-in-out hover:text-primary"
-            >
-              #business
-            </a>
-
-            <a href="#" className="duration-300 ease-in-out hover:text-primary">
-              #saas
-            </a>
-          </li>
-        </ul>
       </div>
     </>
   );
