@@ -30,7 +30,7 @@ export const testimonialData: Testimonial[] = [
   {
     id: 4,
     name: "Dishank Kolpekwar",
-    designation: "Supply Chain Manager, Delhivery",
+    designation: "Supply Chain Manager, Bhupati Logistics, Nagpur",
     src: image2,
     content:
       "HyreLink made our logistics hassle-free. Their precision and efficiency are commendable. Whether it's B2B or B2C, they deliver a reliable and smooth logistics experience. Highly recommended!",
