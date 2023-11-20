@@ -13,7 +13,7 @@ const Hero = () => {
             muted
             playsInline
             loop
-            className="absolute inset-0 h-full w-full object-cover"
+            className="absolute h-screen w-screen md:h-full md:inset-0 object-cover"
           >
             <source src="/videos/homevid.webm" type="video/webm" />
             Your browser does not support the video tag.
