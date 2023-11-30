@@ -6,7 +6,7 @@ import Lines from "@/components/Lines";
 import ScrollToTop from "@/components/ScrollToTop";
 import { ThemeProvider } from "next-themes";
 import { Inter } from "next/font/google";
-import Head from "./head";
+// import Head from "./head";
 import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`dark:bg-black box-content ${inter.className}`}>
-      <Head/>
+      {/* <Head/> */}
         <ThemeProvider
           enableSystem={false}
           attribute="class"
