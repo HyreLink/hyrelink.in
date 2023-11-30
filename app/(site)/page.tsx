@@ -15,8 +15,9 @@ import Testimonial from "@/components/Testimonial";
 import Head from "./head";
 
 export const metadata: Metadata = {
-  title: "Hyrelink.",
-  description: "Your Success, Our Passion",
+  title: "HyreLink Solutions & Services Co. | Transforming Ideas into Digital Excellence",
+  description: "Unlock unparalleled business growth with HyreLink. Our comprehensive services span Digital Marketing, SEO, Website Development, App Development, Logistics, Data Analytics, AI Solutions, Event Management, and Interior Design. From concept to execution, we redefine success with innovative solutions tailored to your needs. Explore the possibilities and elevate your business with HyreLink's expertise.",
+  keywords: "Solutions, SEO, Development, Logistics, Analytics, AI, Event, Interior, Growth, Technology, Transformation, Innovation, Marketing, Creative, Professional, Excellence, Strategy, Client-Centric, Customized, Execution",
   // other metadata
 };
 
